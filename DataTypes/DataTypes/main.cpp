@@ -2,6 +2,9 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 //#define DATA_TYPES
 //#define INITIALISATION
@@ -67,6 +70,10 @@ void main()
 	cout << typeid(25.f).name() << endl;
 	cout << typeid(25u).name() << endl;
 
+	cout << sizeof('+') << endl;
+	cout << typeid('+').name() << endl;
+	cout << sizeof("+") << endl;
+	cout << sizeof("Hello") << endl;
 }
 /*
 	1. ABC...Zabc...z0123...9_;
