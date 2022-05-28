@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\DataTypes.vcxproj", "{FB88BCD5-0D3E-4E87-8B07-24F8C0EE1F8B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Elochka", "Elochka\Elochka.vcxproj", "{4A8E8746-7AFA-4E52-965C-20476FAEFF98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FB88BCD5-0D3E-4E87-8B07-24F8C0EE1F8B}.Release|x64.Build.0 = Release|x64
 		{FB88BCD5-0D3E-4E87-8B07-24F8C0EE1F8B}.Release|x86.ActiveCfg = Release|Win32
 		{FB88BCD5-0D3E-4E87-8B07-24F8C0EE1F8B}.Release|x86.Build.0 = Release|Win32
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Debug|x64.ActiveCfg = Debug|x64
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Debug|x64.Build.0 = Debug|x64
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Debug|x86.Build.0 = Debug|Win32
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Release|x64.ActiveCfg = Release|x64
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Release|x64.Build.0 = Release|x64
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Release|x86.ActiveCfg = Release|Win32
+		{4A8E8746-7AFA-4E52-965C-20476FAEFF98}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
