@@ -4,8 +4,10 @@ using namespace std;
 //#define SQUARE
 //#define TRIANGLE_1
 //#define TRIANGLE_2
-#define TRIANGLE_3
+//#define TRIANGLE_3
 #define TRIANGLE_4
+
+#define PLUS_MINUS
 
 void main()
 {
@@ -54,4 +56,18 @@ void main()
 	}
 #endif // TRIANGLE_3
 
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			//cout << "* ";
+			//if ((i + j) % 2 == 0)cout << "+ ";else cout << "- ";
+			//((i + j) % 2 == 0) ? cout << "+ " : cout << "- ";
+			//(i + j) % 2 == 0 ? cout << "+ " : cout << "- ";
+			//cout << ((i + j) % 2 == 0 ? "+ " : "- ");
+			cout << (i % 2 == j % 2 ? "+ " : "- ");
+		}
+		cout << endl;
+	}
+	true;
 }

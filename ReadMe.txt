@@ -2,11 +2,21 @@ https://github.com/okovtun/SBU_223.git
 https://www.youtube.com/watch?v=YQN-DRgrplc&list=PLeqyOOqxeiIMvjJfSBYoAXa7Kq8V7I2HV
 https://meet.google.com/mho-khdw-fhj
 
+Books:
+https://drive.google.com/file/d/192x5HJikb1iGP6lEYc1k5Zlx0rU6PqtU/view?usp=sharing
+
 TOREAD:
 https://www.softelectro.ru/ieee754.html
 Boost - Long numbers
 
+https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences
+https://docs.microsoft.com/ru-ru/windows/console/console-virtual-terminal-sequences
+
 TODO:
+1. Выбрать три проекта или солюшина, на свое усмотрение, и залить их на GitHub;
+
+
+DONE:
 1. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/Geometria1.txt
 2. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/ChessBoard.jpg
 3. https://github.com/okovtun/BV_011/blob/master/ControlStructures/Geometria/Task/HardChess.jpg

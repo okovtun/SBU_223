@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork", "HomeWork\HomeWo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{EBE30E27-FB18-44EF-B7DA-87E479E5B260}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chess1", "Chess1\Chess1.vcxproj", "{37B4EF84-E224-4D78-B659-6D5096D73362}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{EBE30E27-FB18-44EF-B7DA-87E479E5B260}.Release|x64.Build.0 = Release|x64
 		{EBE30E27-FB18-44EF-B7DA-87E479E5B260}.Release|x86.ActiveCfg = Release|Win32
 		{EBE30E27-FB18-44EF-B7DA-87E479E5B260}.Release|x86.Build.0 = Release|Win32
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Debug|x64.ActiveCfg = Debug|x64
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Debug|x64.Build.0 = Debug|x64
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Debug|x86.ActiveCfg = Debug|Win32
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Debug|x86.Build.0 = Debug|Win32
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Release|x64.ActiveCfg = Release|x64
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Release|x64.Build.0 = Release|x64
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Release|x86.ActiveCfg = Release|Win32
+		{37B4EF84-E224-4D78-B659-6D5096D73362}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

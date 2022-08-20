@@ -1,0 +1,13 @@
+(VCS - Version Control System)
+SVN, Subversion, Mercury......
+Git		- система контроля версий
+GitHub	- платформа (облачное хранилище), 
+		  позволяющее использовать VCS Git.
+
+Репозиторий (Repository, Repo)
+
+fetch, pull и push
+
+Commit - это контрольная точка, которая содержит изменения,
+		 внесенные в исходный код.
+Commit-message
