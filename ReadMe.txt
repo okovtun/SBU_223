@@ -13,6 +13,13 @@ https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequen
 https://docs.microsoft.com/ru-ru/windows/console/console-virtual-terminal-sequences
 
 TODO:
+1. В проект DynamicMemory добавить функции для раборы с двумерными динамическими массивами;
+2. Создать ветку DynamicTemplated и в ней шаблонизировать все фукнции для работы с динамическими массивами, 
+   как с одномерными, так и с двумерными;
+3. От ветки DynamicTemplated создать ветку DynamicOptimisation, и в ней оптимизировать функции для работы с двумерными динамическими массивами;
+
+
+DONE:
 0. Выучить теорию!!!!!!!!!!!!!!!!!!!!!!!!!!
    https://cplusplus.com/doc/tutorial/pointers/
 1. В Solution 'Pointers' добавить проект 'Split' и в этом проекте:

@@ -51,6 +51,17 @@ void main()
 	delete[] arr;
 #endif // DYNAMIC_MEMORY_1
 
+	int number = 2583;
+	do
+	{
+		cout << number % 10;
+	} while (number /= 10);
+	cout << endl;
+
+	cout << typeid(2583).name() << endl;
+	cout << sizeof('+') << endl;
+	cout << sizeof("+") << endl;
+
 	int rows;
 	int cols;
 	cout << "Введите количество строк: "; cin >> rows;
@@ -58,7 +69,7 @@ void main()
 	cout << endl;
 	///////////////////////////////////////////////////////////////////////////
 	int** arr = Allocate(rows, cols);
-
+	cout << arr << endl;
 	FillRand(arr, rows, cols);
 	Print(arr, rows, cols);
 	cout << "Отсортированный массив:\n";
