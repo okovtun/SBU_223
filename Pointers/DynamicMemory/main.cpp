@@ -13,6 +13,8 @@ void FillRand(int** arr, const int rows, const int cols);
 void Print(int* arr, const int n);
 void Print(int** arr, const int rows, const int cols);
 
+void Sort(int** arr, const int rows, const int cols);
+
 int* push_back(int arr[], int& n, int value);
 int* pop_back(int arr[], int& n);
 
@@ -59,6 +61,9 @@ void main()
 
 	FillRand(arr, rows, cols);
 	Print(arr, rows, cols);
+	cout << "Отсортированный массив:\n";
+	Sort(arr, rows, cols);
+	Print(arr, rows, cols);
 
 	cout << "push_row_back:\n";
 	arr = push_row_back(arr, rows, cols);
@@ -71,7 +76,7 @@ void main()
 
 	cout << "push_col_back:\n";
 	push_col_back(arr, rows, cols);
-	for (int i = 0; i < rows; i++)arr[i][cols - 1] = rand()%1000;
+	for (int i = 0; i < rows; i++)arr[i][cols - 1] = rand() % 1000;
 	Print(arr, rows, cols);
 
 	cout << "pop_col_back:\n";
@@ -148,6 +153,31 @@ void Print(int** arr, const int rows, const int cols)
 		}
 		cout << endl;
 	}
+}
+
+void Sort(int** arr, const int rows, const int cols)
+{
+	int iterations = 0;
+	for (int i = 0; i < rows; i++)
+	{
+		for (int j = 0; j < cols; j++)
+		{
+			for (int k = i; k < rows; k++)
+			{
+				for (int l = k == i ? j + 1 : 0; l < cols; l++)
+				{
+					//arr[i][j] - выбранный элемент
+					//arr[k][l] - перебираемый элемент
+					if (arr[k][l] < arr[i][j])
+					{
+						swap(arr[i][j], arr[k][l]);
+					}
+					iterations++;
+				}
+			}
+		}
+	}
+	printf("Массив отсортирован за %d итераций\n", iterations);
 }
 
 int* push_back(int arr[], int& n, int value)
